@@ -199,7 +199,7 @@ const Contact = () => {
               {errors.from_email && <span className="error">{errors.from_email}</span>}
             </div>
             <div className="form_input-div">
-              <input type="text" placeholder='Your Subject' name='subject' className="form_control" required />
+              <input type="text" placeholder='Your Subject' name='from_subject' className="form_control" required />
             </div>
           </div>
           <div className="form_input-div">
