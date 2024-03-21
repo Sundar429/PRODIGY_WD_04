@@ -214,6 +214,26 @@
 
    
 }
+@media screen and (max-width:400px){
+ 
+     .modal_img{
+        max-width: 300px;
+    }
+
+    .project_modal_content{
+        max-width: 300px;
+        
+
+    }
+    .item_details{
+        font-size: var( --tiny-font-size);
+    }
+    .item_title{
+        font-size: var( --tiny-font-size);
+    }
+
+}
+
 
 @media screen and (max-width:350px){
     .home_title span{
