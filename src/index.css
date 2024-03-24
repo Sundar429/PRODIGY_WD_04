@@ -231,6 +231,10 @@
     .item_title{
         font-size: var( --tiny-font-size);
     }
+    .info_list .info_title,
+    .info_list .info_description{
+        font-size: var(--smaller-font-size);
+    }
 
 }
 
@@ -239,5 +243,9 @@
     .home_title span{
         display: inline;
     }
+    .info_list{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 
 }
