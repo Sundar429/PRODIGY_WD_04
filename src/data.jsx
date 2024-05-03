@@ -6,6 +6,7 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  FaVideo
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import { SiNetlify } from "react-icons/si";
@@ -15,6 +16,7 @@ import Work2 from './assets/project-2.png';
 import Work3 from './assets/project-3.png';
 import Work4 from './assets/project-4.png';
 import Work5 from './assets/project-5.png';
+import Video from './assets/FoodApp.mp4'
 // import Work6 from './assets/project-6.jpg';
 
 import Theme1 from './assets/purple.png';
@@ -262,6 +264,11 @@ export const portfolio = [
         icon: <FaGithub />,
         title: 'Git-hub : ',
         desc: '<a href="https://github.com/Sundar429/full-stack-frontend">https://github.com/Sundar429/full-stack-frontend</a>',
+      },
+      {
+        icon: <FaVideo/>,
+        title: 'Demo Video : ',
+        desc: `<a href=${Video}>FoodApp.mp4</a>`,
       },
     ],
   },
