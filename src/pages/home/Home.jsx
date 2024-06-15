@@ -13,10 +13,10 @@ const Home = () => {
       <div className="home_content">
         <div className="home_data">
           <h1 className="home_title">
-            <span>I'm Meenakshi Sundaram.</span> <br /> Web Developer
+            <span>I'm Meenakshi Sundaram.</span> <br /> Full Stack Developer 
           </h1>
           <p className="home_description">
-            I'm a Web designer & front-end developer focused on crafting clean & user-friendly experience.
+            I'm a Full Stack Developer focused on crafting clean & user-friendly experience.
             I am passionate about building excellent software that imporves the lives of those around me.
           </p>
           <Link to={'/about'} className='button'>
