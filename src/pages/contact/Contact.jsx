@@ -102,7 +102,7 @@
 
 
 import React, { useRef, useState } from 'react';
-import { FaEnvelopeOpen, FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelopeOpen, FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FiSend } from 'react-icons/fi';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -182,10 +182,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact_socials">
-            <a href="https://facebook.com" className="contact_social-link"> <FaFacebookF/></a>
-            <a href="https://twitter.com" className="contact_social-link"> <FaTwitter/></a>
-            <a href="https://youtube.com" className="contact_social-link"> <FaYoutube/></a>
-            <a href="https://linkedin.com" className="contact_social-link"> <FaLinkedin/></a>
+            {/* <a href="https://facebook.com" className="contact_social-link"> <FaFacebookF/></a>
+            <a href="https://twitter.com" className="contact_social-link"> <FaTwitter/></a> */}
+            <a href="https://github.com/Sundar429" className="contact_social-link"> <FaGithub/></a>
+            <a href="https://www.linkedin.com/in/meenakshi-sundaram-m-1473b2195" className="contact_social-link"> <FaLinkedin/></a>
           </div>
         </div>
         <form className="contact_form" ref={formRef} onSubmit={sendEmail}>
