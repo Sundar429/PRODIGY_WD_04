@@ -16,6 +16,7 @@ import Work2 from './assets/project-2.png';
 import Work3 from './assets/project-3.png';
 import Work4 from './assets/project-4.png';
 import Work5 from './assets/project-5.png';
+import Work6 from './assets/project-6.png';
 import Video from './assets/FoodApp.mp4'
 // import Work6 from './assets/project-6.jpg';
 
@@ -145,7 +146,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '04/2022 - 09/2022',
     title: 'Front-End Developer <span>TechGenzi Private Limited</span> ',
-    desc: 'As a Frontend developer,I had design the UI for the web page by using Material UI.I had done API Integration for web pages.',
+    desc: '- As a Frontend Developer,I Designed user interfaces using Material UI. <br/> <br/>- Integrated APIs into web pages for dynamic functionality.',
   },
 
   {
@@ -154,7 +155,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '12/2022- 06/2023',
     title: 'Java Full Stack Development Course <span>Beasant Technologies</span> ',
-    desc: 'As I learned Full stack development,I had gained skills like HTML,CSS,Javascript,Bootstrap,Java & SQL.',
+    desc: '- Gained proficiency in HTML5, CSS3, JavaScript, ReactJS, Java and SQL. Equipped to build dynamic, responsive, and scalable web applications, covering both frontend and backend development, and database management.<br/> <br/>  - Completed a comprehensive course in Java Full Stack development.',
   },
 
 
@@ -272,10 +273,41 @@ export const portfolio = [
       },
     ],
   },
-  
+
   {
     
     id: 2,
+    img: Work6,
+    title: 'Full Stack CRUD Application',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Full Stack CRUD Application',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React,Spring Boot & MySql',
+      },
+      {
+        icon: <SiNetlify />,
+        title: 'Vercel : ',
+        desc: '<a href="https://crud-frontend-sandy.vercel.app">https://crud-frontend-sandy.vercel.app</a>',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git-hub : ',
+        desc: '<a href="https://github.com/Sundar429/Crud-Frontend">https://github.com/Sundar429/Crud-Frontend</a>',
+      },
+     
+    ],
+  },
+  
+  {
+    
+    id: 3,
     img: Work1,
     title: 'Landing Page',
     details: [
@@ -304,7 +336,7 @@ export const portfolio = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: Work2,
     title: 'Stopwatch',
     details: [
@@ -333,7 +365,7 @@ export const portfolio = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: Work3,
     title: 'Tic Tac Toe Game',
     details: [
@@ -362,7 +394,7 @@ export const portfolio = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: Work4,
     title: 'Weather App',
     details: [

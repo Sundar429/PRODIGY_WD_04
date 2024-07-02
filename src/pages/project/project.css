@@ -1,5 +1,6 @@
 .project_container {
     grid-template-columns: repeat(4, 1fr);
+
 }
 
 .project_item {
@@ -7,6 +8,7 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    border: 2px solid hsl(0, 0%, 50%);
 
 }
 
