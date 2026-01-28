@@ -77,7 +77,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '23 Years',
+    description: '25 Years',
   },
 
   {
@@ -144,13 +144,21 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
+    year: '12/2024 - 12/2025',
+    title: 'Java Backend Developer <span>Staunch Info Solutions</span> ',
+    desc: '- Developed and maintained backend REST APIs using Spring Boot. <br/> <br/>-  Worked on backend business logic and data-related features. <br/> <br/>-  Implemented validations, DTO mapping, and exception handling. <br/> <br/>-  Handled database operations using JPA and MySQL.  <br/> <br/>-  Collaborated with frontend teams for API integration.  <br/> <br/>- Tested APIs using Swagger and followed clean coding practices. <br/> <br/>-  Used Git for version control and feature-based development.',
+  },
+  {
+    id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
     year: '04/2022 - 09/2022',
-    title: 'Front-End Developer <span>TechGenzi Private Limited</span> ',
+    title: 'Frontend Developer Intern <span>TechGenzi Private Limited</span> ',
     desc: '- As a Frontend Developer,I Designed user interfaces using Material UI. <br/> <br/>- Integrated APIs into web pages for dynamic functionality.',
   },
 
   {
-    id: 2,
+    id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '12/2022- 06/2023',
@@ -189,18 +197,27 @@ export const resume = [
 ];
 
 export const skills = [
+
+  {
+    id: 5,
+    title: 'Java',
+    percentage: '90',
+  },
+  {
+    id: 6,
+    title: 'Spring Boot',
+    percentage: '80',
+  },
+  {
+    id: 6,
+    title: 'SQL',
+    percentage: '90',
+  },
   {
     id: 1,
     title: 'Html',
     percentage: '80',
   },
-
-  {
-    id: 2,
-    title: 'Javascript',
-    percentage: '75',
-  },
-
   {
     id: 3,
     title: 'Css',
@@ -208,22 +225,22 @@ export const skills = [
   },
 
   {
+    id: 2,
+    title: 'Javascript',
+    percentage: '55',
+  },
+
+
+
+  {
     id: 4,
     title: 'React',
-    percentage: '70',
-  },
+    percentage: '55',
+  }
 
-  {
-    id: 5,
-    title: 'Java',
-    percentage: '80',
-  },
+ 
 
-  {
-    id: 6,
-    title: 'SQL',
-    percentage: '70',
-  },
+  
 
   // {
   //   id: 7,
