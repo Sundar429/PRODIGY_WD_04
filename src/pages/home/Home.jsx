@@ -13,11 +13,13 @@ const Home = () => {
       <div className="home_content">
         <div className="home_data">
           <h1 className="home_title">
-            <span>I'm Meenakshi Sundaram.</span> <br /> Full Stack Developer 
+            <span>I'm Meenakshi Sundaram.</span> <br /> Java Backend Developer 
           </h1>
           <p className="home_description">
-            I'm a Full Stack Developer focused on crafting clean & user-friendly experience.
-            I am passionate about building excellent software that imporves the lives of those around me.
+          Java Backend Developer with 1 year of experience in developing and maintaining backend
+          services using Java, Spring Boot, JPA, and MySQL. Experienced in backend API
+          development, data handling, validations, and database interactions. Seeking opportunities
+          to grow as a backend engineer.
           </p>
           <Link to={'/about'} className='button'>
             More About Me <span className='button_icon'><FaArrowRight /></span>
