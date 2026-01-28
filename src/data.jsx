@@ -148,22 +148,23 @@ export const resume = [
     title: 'Java Backend Developer <span>Staunch Info Solutions</span> ',
     desc: '- Developed and maintained backend REST APIs using Spring Boot. <br/> <br/>-  Worked on backend business logic and data-related features. <br/> <br/>-  Implemented validations, DTO mapping, and exception handling. <br/> <br/>-  Handled database operations using JPA and MySQL.  <br/> <br/>-  Collaborated with frontend teams for API integration.  <br/> <br/>- Tested APIs using Swagger and followed clean coding practices. <br/> <br/>-  Used Git for version control and feature-based development.',
   },
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '04/2022 - 09/2022',
-    title: 'Frontend Developer Intern <span>TechGenzi Private Limited</span> ',
-    desc: '- As a Frontend Developer,I Designed user interfaces using Material UI. <br/> <br/>- Integrated APIs into web pages for dynamic functionality.',
-  },
+ 
 
   {
-    id: 3,
+    id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '12/2022- 06/2023',
     title: 'Java Full Stack Development Course <span>Beasant Technologies</span> ',
     desc: '- Gained proficiency in HTML5, CSS3, JavaScript, ReactJS, Java and SQL. Equipped to build dynamic, responsive, and scalable web applications, covering both frontend and backend development, and database management.<br/> <br/>  - Completed a comprehensive course in Java Full Stack development.',
+  },
+   {
+    id: 3,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '04/2022 - 09/2022',
+    title: 'Frontend Developer Intern <span>TechGenzi Private Limited</span> ',
+    desc: '- As a Frontend Developer,I Designed user interfaces using Material UI. <br/> <br/>- Integrated APIs into web pages for dynamic functionality.',
   },
 
 
